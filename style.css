@@ -1,0 +1,60 @@
+.body {
+  background: #000;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.title-container {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-top: 10%;
+  background-color: black;
+  border: 7px outset rgba(255, 255, 255, 0.3);
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.title {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.clock-container {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  position: relative;
+  font-size: 3rem;
+  font-family: 'Orbitron', sans-serif;
+  color: RGB(73, 251, 53);
+  background-color: black;
+  margin-left: 25%;
+  margin-right: 25%;
+  border: 7px outset rgba(255, 255, 255, 0.3);
+}
+
+.author-container {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-top: 45vh;
+}
+
+.author-name {
+  margin-right: 50px;
+  font-family: 'Indie Flower', cursive;
+}
+
+/*Media queries*/
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .title-container {
+    margin-top: 10rem;
+  }
+  .title {
+    font-size: 2.2rem;
+  }
+  #clock {
+    font-size: 1.2rem;
+  }
+  .author-name {
+    margin: auto;
+  }
+}
+/*# sourceMappingURL=style.css.map */
